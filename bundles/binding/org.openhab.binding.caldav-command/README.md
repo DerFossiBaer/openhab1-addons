@@ -142,7 +142,14 @@ As far as i know are these
     caldavio:openhab_tasks:password=password
     caldavio:openhab_tasks:reloadInterval=10
     caldavio:openhab_tasks:preloadTime=20000
-## (zarafa?)
+## kopano (zarafa befor, tasks comes with UTC timestamp)
+    caldavio:OpenHAB:url=https://server.de:8443/caldav/username/OpenHAB
+    caldavio:OpenHAB:username=username
+    caldavio:OpenHAB:password=password
+    caldavio:OpenHAB:reloadInterval=10
+    caldavio:OpenHAB:preloadTime=20160
+    caldavio:OpenHAB:disableCertificateVerification=true
+    caldavio:timeZone=UTC
 
 ## Locate URL
 This site may help to find the Calendar URL (i.e. Google Shared Calendars):
